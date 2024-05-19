@@ -1,1 +1,2 @@
-def test_hello():\n print ('hello world') 
+def test_hello():
+    print("hello world")
