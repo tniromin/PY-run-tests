@@ -2,8 +2,8 @@
 
 mkdir tests
 
-echo "print ('hello world') " > tests/test_hello.py
-echo "print ('hello world') " > tests/test_helloworld.py
+echo "def test_hello():\n print ('hello world') " > tests/test_hello2.py
+echo "def test_helloworld():\n print ('hello world') " > tests/test_helloworld2.py
 echo "pytest" > requirements.txt
 
 
