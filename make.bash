@@ -2,7 +2,8 @@
 
 mkdir tests
 
-echo "print /"hello world/" " > tests/hello.py
+echo "print /"hello world/" " > tests/test_hello.py
+echo "print /"hello world/" " > tests/test_helloworld.py
 echo "pytest" > requirements.txt
 
 
