@@ -19,7 +19,7 @@ if [ "$#" -ne 2 ];then
 fi
 
 git clone $repo $dir
-git remote add origin $repo
+#git remote add origin $repo
 
 git checkout -b dev
 
@@ -31,4 +31,4 @@ git checkout main
 git merge dev
 
 git push -u origin main
-git remote remove origin
+#git remote remove origin
